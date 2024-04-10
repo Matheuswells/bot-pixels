@@ -4,11 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/scanner.js"
+    "start": "node src/bot/index.js",
+    "scan": "node src/scan.js"
   },
   "dependencies": {
+    "discord-rpc": "^4.0.1",
     "discord.js": "^14.14.1",
+    "mongoose": "^8.2.4",
     "node-fetch": "^3.3.2",
-    "puppeteer": "^22.6.1"
+    "puppeteer": "^22.6.1",
+    "ws": "^8.16.0"
   }
 }
